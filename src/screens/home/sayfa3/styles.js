@@ -1,0 +1,142 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  backgrounds: {
+    backgroundColor: '#FEF7F1',
+    flex: 1,
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    margin: 20,
+  },
+  headericonstyle: {
+    tintColor: '#EF8F52',
+    width: 35,
+    height: 35,
+  },
+  cartxt: {
+    fontWeight: 'bold',
+    fontSize: 30,
+  },
+  cartpos: {
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    margin: 10,
+    marginLeft: 35,
+  },
+  products: {
+    backgroundColor: '#ffff',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    borderRadius: 12,
+    width: '90%',
+    height: 150,
+  },
+  productpos: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  propos: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  proicon: {
+    width: 100,
+    height: 100,
+  },
+  nametxt: {
+    fontWeight: 'bold',
+    fontSize: 20,
+  },
+  price: {
+    borderWidth: 1,
+    borderColor: '#EF8F52',
+    borderRadius: 12,
+    width: 80,
+    height: 30,
+    margin: 5,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  pricepos: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+    marginRight: 10,
+  },
+  pricetxt: {
+    color: '#EF8F52',
+    fontWeight: '700',
+    fontSize: 20,
+  },
+  trashicon: {
+    width: 30,
+    height: 30,
+    tintColor: '#EF8F52',
+  },
+  trashpos: {
+    justifyContent: 'flex-end',
+    alignItems: 'flex-start',
+    marginBottom: 15,
+  },
+  deliverpos: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginLeft: 40,
+    marginRight: 40,
+    marginTop: 20,
+  },
+  homeback: {
+    backgroundColor: '#ffff',
+    width: 90,
+    height: 50,
+    alignItems: 'center',
+    borderRadius: 20,
+    justifyContent: 'center',
+  },
+  endline: {
+    backgroundColor: '#ffff',
+    width: '100%',
+    height: 150,
+    borderTopLeftRadius: 40,
+    borderTopRightRadius: 40,
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+    marginTop: 50,
+    alignItems: 'center',
+  },
+  details: {
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    margin: 30,
+  },
+  endlinepricetxt: {
+    color: '#EF8F52',
+    fontWeight: '700',
+    fontSize: 30,
+  },
+  endlinedetailtxt: {
+    color: '#EF8F52',
+    fontWeight: '700',
+    fontSize: 15,
+  },
+  buynowbutton: {
+    backgroundColor: '#EF8F52',
+    width: 130,
+    height: 90,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  buynowtxt: {
+    color: '#ffff',
+    fontWeight: 'bold',
+    fontSize: 20,
+  },
+});
